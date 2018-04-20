@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Jekyll Theme - Blog Page - Massively
-description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to.
+description: Although I am a Chinese, I plan to record my blog in English, learn new knowledge on the one hand, and improve my English on the other hand. If there is any grammatical error or improper expression, please understand and welcome correction.
 sitemap:
     priority: 1.0
     lastmod: 2017-11-02
