@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6d8b9292-4011-4a2e-8375-8afac90d5c75" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/_includes/foot.html" afterPath="$PROJECT_DIR$/_includes/foot.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/blog.html" afterPath="$PROJECT_DIR$/_layouts/blog.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/Apriori-based-on-Spark/index.html" afterPath="$PROJECT_DIR$/_site/blog/Apriori-based-on-Spark/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/index.html" afterPath="$PROJECT_DIR$/_site/blog/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/elements_hide/index.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
-      <change beforePath="$PROJECT_DIR$/about.md" afterPath="$PROJECT_DIR$/about.md" />
-      <change beforePath="$PROJECT_DIR$/blog.md" afterPath="$PROJECT_DIR$/blog.md" />
-      <change beforePath="$PROJECT_DIR$/elements_hide.html" afterPath="$PROJECT_DIR$/Roadside scenery.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,8 +67,8 @@
       <file leaf-file-name="foot.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/foot.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="28" column="18" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="398">
+              <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -365,12 +349,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524224436462</updated>
-      <workItem from="1524224439280" duration="22408000" />
+      <workItem from="1524224439280" duration="22987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22408000" />
+    <option name="totallyTimeSpent" value="22987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -667,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/foot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="28" column="18" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="398">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding />
         </state>
       </provider>
