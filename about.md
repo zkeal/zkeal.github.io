@@ -11,7 +11,7 @@ sitemap:
 
 <span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
 
-___Now(to be Done this week)___
+___Now(Recent plans)___
 
 _Machine Learing_: isolated forest tree,SVM(kernel add).
 
@@ -24,7 +24,7 @@ _Python_: class
 
 <span class="image left"><img src="{{ "/images/pic03.jpg" | absolute_url }}" alt="" /></span>
 
-___Long-term goal(to be Done in next month)___
+___Long-term goal(Significant but later)___
 
 _Machine learning_:CNN 
 
