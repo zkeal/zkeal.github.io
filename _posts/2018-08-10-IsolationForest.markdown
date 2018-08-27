@@ -3,10 +3,11 @@ layout: post
 title:  "IsolationForest algorithm"
 date:   2018-08-12
 excerpt: "the best algorithm for distribute system"
-image: "/images/apriori1.jpg"
+image: "/images/IF_algorithm.jpg"
 ---
 
 ## Introduction
+
 Anomalies are data patterns that have different data characteristics
 from normal instances. The detection of anomalies
 has significant relevance and often provides critical actionable
@@ -20,6 +21,7 @@ anomaly detection algorithms with high detection performance
 and fast execution.
 
 ## Method summery
+
 The proposed method, called Isolation Forest or iForest,
 builds an ensemble of iTrees for a given data set, then
 anomalies are those instances which have short average path
@@ -30,7 +32,8 @@ aggregation group.it not only effective but also extramely suitble for distribut
 method.It divide data set into many small data groups so that distribute system can build tree by each data group in the 
 stage of Mapper.
 
-##The Implementation
+## The Implementation
+
 __Definition__ 
 
 Isolation Tree. Let T be a node of an isolation
@@ -60,13 +63,14 @@ anomaly score as follows.
 
 __Ananomaly score__ 
 
->h(x):while the maximum possible height of iTree grows in the order of n.
+>$$h(x)$$ while the maximum possible height of iTree grows in the order of n.
 
->the average path length of unsuccessful search in BST as:  c(n) = 2H(n − 1) − (2(n − 1)/n)
+>the average path length of unsuccessful search in BST as: $$ c(n) = 2H(n − 1) − (2(n − 1)/n)$$
 
->H(i):the harmonic number and it can be estimated by ln(i) + 0.5772156649 (Euler’s constant).
+>$$H(i)$$:the harmonic number and it can be estimated by ln(i) + 0.5772156649 (Euler’s constant).
 
->The anomaly scores of an instance x is defined as: ![image](/images/if_airo.png)
+>The anomaly scores of an instance x is defined as:  $$ s(x,n)=2^\frac{-E(h(x))}{c(n)}$$
+
 
 __CODE__
 
@@ -182,4 +186,4 @@ This paper proposes a fundamentally different model- based method that focuses o
   As a result, iForest has a linear time com- plexity with a low constant and a low memory requirement which is ideal for high volume data sets.
   
  ***
- paper link:[https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf]
+ paper link:[https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf).
