@@ -5,3 +5,20 @@
 <script src="{{ "/assets/js/skel.min.js" | absolute_url }}"></script>
 <script src="{{ "/assets/js/util.js" | absolute_url }}"></script>
 <script src="{{ "/assets/js/main.js" | absolute_url }}"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\(', '\)'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
