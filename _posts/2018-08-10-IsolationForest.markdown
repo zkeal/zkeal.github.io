@@ -181,8 +181,8 @@ to output at the end.
 This paper proposes a fundamentally different model- based method that focuses on anomaly isolation rather than normal instance
  profiling. The concept of isolation has not been explored in the current literature and the use of 
  isola- tion is shown to be highly effective in detecting anomalies with extremely high efficiency. 
- Taking advantage of anoma- lies’ nature of ‘few and different’, iTree isolates anoma- lies closer to the root of the tree as compared to normal points.
-  This unique characteristic allows iForest to build partial models (as opposed to full models in profiling) and employ only a tiny proportion of training data to build ef- fective models.
+ Taking advantage of anoma- lies’ nature of ‘few and different’, iTree isolates anomalies closer to the root of the tree as compared to normal points.
+  This unique characteristic allows iForest to build partial models and employ only a tiny proportion of training data to build ef- fective models.
   As a result, iForest has a linear time com- plexity with a low constant and a low memory requirement which is ideal for high volume data sets.
   
  ***
