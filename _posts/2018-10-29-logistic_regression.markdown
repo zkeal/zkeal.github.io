@@ -3,7 +3,7 @@ layout: post
 title:  "Logistic Regression"
 date:   2018-10-29
 excerpt: "The rudimentary algorithm used in NN"
-image: "/images/IF_algorithm.jpg"
+image: "/images/logstic_pic.jpg"
 ---
 
 ## Introduction
@@ -16,9 +16,8 @@ pass/fail, win/lose, alive/dead or healthy/sick; these are represented by an ind
 ## Method Summary
 
 In the proposed algorithm,Logistic Regression,is extremely similar with classification algorithms because our final predict answers are plenty of labels which
-only have two kinds label,'0'and'1',with the possibility to correspond each label. In the logistic model, the log-odds (the logarithm of the odds) for the value 
-labeled "1" is a linear combination of one or more independent variables ("predictors"); the independent variables can each be a binary variable (two classes, 
-coded by an indicator variable) or a continuous variable (any real value).
+only have two kinds label,'0'and'1',with the possibility to correspond each label. In the logistic model, the the logarithm of the odds for the value 
+labeled "1" is a linear combination of one or more independent variables; the independent variables can each be a binary variable or a continuous variable.
 
 __Significant part__
 
@@ -35,8 +34,13 @@ from the formula.
 During the process of training, the essential part in the implementation of Logistic Regression is get the min of lost which means the difference between the predict 
 data and label.That is using derivative dz=a[i]-y[i] to time X so that if the derivative is closer to 0,it will get less distance in movement. 
 
-The sum of Lost Fuction
+The sum of Lost Function
 > ![image](/images/logistic_lose.jpg)
+
+__the overview of algorithm__
+<center>
+<img src="/images/LR.png" width="75%" height="75%" />
+</center>
 
 __gradient derivative__
 
